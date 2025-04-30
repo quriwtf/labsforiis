@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NODE_VERSION: 18
-      WORKDIR: labsforiis
+      WORKDIR: vue-paper-dashboard
 
     steps:
       - name: Checkout repository
