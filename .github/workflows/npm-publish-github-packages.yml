@@ -48,3 +48,6 @@ jobs:
         with:
           name: build-artifacts
           path: ${{ env.WORKDIR }}/dist/**
+
+      - name: Build completed successfully
+        run: echo "Проєкт успішно зібраний та артефакти збережені."
