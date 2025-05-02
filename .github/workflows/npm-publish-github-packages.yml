@@ -50,4 +50,4 @@ jobs:
           path: ${{ env.WORKDIR }}/dist/**
 
       - name: Build completed successfully
-        run: echo "Проєкт успішно зібраний та артефакти збережені."
+        run: echo "Проєкт успішно зібраний."
